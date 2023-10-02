@@ -1,0 +1,24 @@
+{
+  "name": "mood-fi-livestream-database",
+  "version": "1.0.0",
+  "description": "That's a script project for Mood-Fi's database. All the provided API data will be in a GitHub Gist to be used on the app.",
+  "main": "database-script.ts",
+  "scripts": {
+    "start": "node database-script.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaykyDeSouzaDias/mood-fi-livestream-database.git"
+  },
+  "author": "Kayky de Souza Dias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaykyDeSouzaDias/mood-fi-livestream-database/issues"
+  },
+  "homepage": "https://github.com/KaykyDeSouzaDias/mood-fi-livestream-database#readme",
+  "devDependencies": {
+    "axios": "^1.5.1",
+    "typescript": "^5.2.2"
+  }
+}
