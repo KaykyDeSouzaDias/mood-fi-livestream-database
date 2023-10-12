@@ -19,6 +19,7 @@ jobs:
       - name: Run TypeScript Script
         run: |
           npm install
+          npm run build
           npm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
