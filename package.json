@@ -4,7 +4,8 @@
   "description": "That's a script project for Mood-Fi's database. All the provided API data will be in a GitHub Gist to be used on the app.",
   "main": "database-script.ts",
   "scripts": {
-    "start": "node database-script.ts",
+    "build": "tsc --build",
+    "start": "node database-script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
