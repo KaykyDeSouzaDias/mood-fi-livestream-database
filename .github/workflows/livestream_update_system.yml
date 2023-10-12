@@ -1,4 +1,4 @@
-name: Atualizar Gist Diariamente
+name: Mood-Fi Live stream Updater
 
 on:
   schedule:
