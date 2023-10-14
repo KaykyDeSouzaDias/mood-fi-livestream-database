@@ -1,8 +1,8 @@
 name: Mood-Fi Live stream Updater
 
-on: workflow_dispatch
-#   schedule:
-#     - cron: '0 0 * * *' 
+on:
+  schedule:
+    - cron: '0 0 * * *' 
 
 jobs:
   update-moodfi-gist-database:
