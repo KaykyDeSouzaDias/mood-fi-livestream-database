@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Use a versão desejada do Node.js
+          node-version: '18'
       - name: Run TypeScript Script
         run: |
           npm install
