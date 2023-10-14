@@ -19,7 +19,8 @@ jobs:
       - name: Run TypeScript Script
         run: |
           npm install
+          npm run build
           npm start
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DATABASE_GIST_PERSONAL_TOKEN }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
