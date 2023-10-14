@@ -22,5 +22,8 @@
     "@types/node": "^20.8.4",
     "axios": "^1.5.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "octokit": "^3.1.1"
   }
 }
