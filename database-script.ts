@@ -76,5 +76,7 @@ async function updateGitHubGist(content: string) {
 const promises = CHANNEL_IDS.map((channelId) => getYouTubeLiveInfo(channelId));
 
 Promise.all(promises).then((results) => {
-  updateGitHubGist(JSON.stringify(results.flat(), null, 2));
+  if (results.flat().length > 0) {
+    updateGitHubGist(JSON.stringify(results.flat(), null, 2));
+  }
 });
